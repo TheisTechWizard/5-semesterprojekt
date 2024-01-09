@@ -1,0 +1,83 @@
+.user-overview-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    height: 100%;
+    width: 100%;
+    min-height: 750px;
+    background: white;
+    border-style: none;
+    border-radius: 14px;
+
+    .title {
+        padding-left: 20px;
+    }
+
+    .users-list {
+        padding: 0px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .column-titles {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            p {
+                font-weight: 600;
+            }
+        }
+
+        .user {
+
+            .user-info {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                align-items: center;
+
+                img {
+                    justify-self: center;
+                }
+            }
+
+
+            &:hover {
+                background: rgba(189, 189, 189, 0.25);
+                border-radius: 14px;
+            }
+
+            .user-expanded {
+                padding: 0px 30px 10px;
+
+                .contact-info {}
+
+                .courses-list {
+                    width: 100%;
+
+                    .course {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+
+                .assign-course-btn {
+                    display: flex;
+                    justify-content: flex-end;
+
+                    button {
+                        border-radius: 14px;
+                        background-color: #f28033;
+                        border-style: none;
+                        color: #ffffff;
+                        padding: 12px;
+                    }
+                }
+            }
+        }
+
+        .selected {
+            background: rgba(189, 189, 189, 0.25);
+            border-radius: 14px;
+        }
+    }
+}

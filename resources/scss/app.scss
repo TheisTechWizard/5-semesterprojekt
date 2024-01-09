@@ -1,0 +1,13 @@
+@use "main";
+@use "typography";
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    .navbar-menu {
+    }
+
+    .content-container {
+        width: 100%;
+    }
+}

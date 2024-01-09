@@ -1,0 +1,446 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>6</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>24</x><y>1398</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+email
+password
+type
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>288</x><y>1398</y><w>60</w><h>54</h></coordinates><panel_attributes>Assignment
+--
+name
+completion
+tags
+category</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>1398</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>1416</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+has &gt;</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>1398</y><w>60</w><h>54</h></coordinates><panel_attributes>Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>78</x><y>1416</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1..*
+&lt; has </panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>852</x><y>1344</y><w>84</w><h>78</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>120;100;80;100;80;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1098</y><w>60</w><h>18</h></coordinates><panel_attributes>user</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>id</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>information</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>something</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>156</x><y>1098</y><w>60</w><h>18</h></coordinates><panel_attributes>group</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>156</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>id</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>name</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>156</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>216</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>dev team 1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1170</y><w>60</w><h>18</h></coordinates><panel_attributes>useringroup</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1188</y><w>60</w><h>18</h></coordinates><panel_attributes>userID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1188</y><w>60</w><h>18</h></coordinates><panel_attributes>grouopID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1206</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1206</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1224</y><w>60</w><h>18</h></coordinates><panel_attributes>2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1224</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1242</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>78</x><y>1242</y><w>60</w><h>18</h></coordinates><panel_attributes>2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>1098</y><w>60</w><h>18</h></coordinates><panel_attributes>assignment</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>id
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>1116</y><w>60</w><h>18</h></coordinates><panel_attributes>material</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>1134</y><w>60</w><h>18</h></coordinates><panel_attributes>video</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>102</x><y>1254</y><w>18</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLNote</id><coordinates><x>0</x><y>1278</y><w>252</w><h>42</h></coordinates><panel_attributes>Note..
+bg=blue
+
+select * from user join useringroup on userID where groupID=(given id)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>1176</y><w>84</w><h>18</h></coordinates><panel_attributes>assingmentandgroup</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>1194</y><w>60</w><h>18</h></coordinates><panel_attributes>assignmentID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>1194</y><w>60</w><h>18</h></coordinates><panel_attributes>grouopID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>1212</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>1212</y><w>60</w><h>36</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>1230</y><w>60</w><h>18</h></coordinates><panel_attributes>2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>1230</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>1248</y><w>60</w><h>18</h></coordinates><panel_attributes>1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>1248</y><w>60</w><h>18</h></coordinates><panel_attributes>2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>366</x><y>1170</y><w>150</w><h>84</h></coordinates><panel_attributes>flere grupper pr. assingment
+bg=blue
+
+binding table = assignmentandgroup
+
+for at undgå null værdier ved at have en 
+colonne for hver gruppe der er sat på en 
+opgave, laves binding table med gruppeID
+og assignmentID</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>6</x><y>1374</y><w>492</w><h>120</h></coordinates><panel_attributes>Domain Model
+--
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>300</x><y>1320</y><w>156</w><h>36</h></coordinates><panel_attributes>spørgsmål
+bg=blue
+
+bør man tilføje grupperinger af assignments</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>1374</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>798</x><y>1212</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>1176</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 2.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>1374</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+category
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>1374</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+category</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>798</x><y>1320</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+category
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1350</x><y>1344</y><w>60</w><h>54</h></coordinates><panel_attributes>Drawing
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1476</x><y>1344</y><w>60</w><h>54</h></coordinates><panel_attributes>Shape
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1404</x><y>1350</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..n
+teaches to &gt;</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1560</x><y>1290</y><w>72</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1620</x><y>1260</y><w>60</w><h>54</h></coordinates><panel_attributes>Circle
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1620</x><y>1344</y><w>60</w><h>54</h></coordinates><panel_attributes>Triangle
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1620</x><y>1416</y><w>60</w><h>54</h></coordinates><panel_attributes>Square
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1560</x><y>1362</y><w>72</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1560</x><y>1404</y><w>72</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>100;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1518</x><y>1320</y><w>54</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>30;70;70;70;70;10;10;10;10;40</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1602</x><y>1242</y><w>210</w><h>246</h></coordinates><panel_attributes>Unødvendig
+--
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>1692</x><y>1278</y><w>102</w><h>174</h></coordinates><panel_attributes>Domain Model 2.0
+--
+bg=green
+Unødvendig</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2064</x><y>1068</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+category
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1896</x><y>1434</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2016</x><y>1176</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+category
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1962</x><y>1284</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+category</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2106</x><y>1176</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+category
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2064</x><y>1284</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+category</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2160</x><y>1284</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+category</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1980</x><y>1434</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2064</x><y>1434</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2148</x><y>1434</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2232</x><y>1434</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1938</x><y>1332</y><w>42</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;170;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2058</x><y>1224</y><w>48</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>60;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2142</x><y>1224</y><w>54</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>70;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1992</x><y>1224</y><w>48</w><h>78</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;110;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1980</x><y>1332</y><w>36</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>40;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2082</x><y>1332</y><w>24</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>20;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2106</x><y>1332</y><w>90</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2166</x><y>1332</y><w>42</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>50;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2190</x><y>1332</y><w>84</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>120;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2022</x><y>1332</y><w>60</w><h>114</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;170;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2094</x><y>1116</y><w>42</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>50;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>2058</x><y>1116</y><w>42</w><h>72</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;100;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>1422</y><w>96</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; has</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>1392</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>1392</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>822</x><y>1260</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>852</x><y>1236</y><w>132</w><h>150</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>170;230;170;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>1212</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>702</x><y>1230</y><w>108</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>654</x><y>1260</y><w>324</w><h>204</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;230;120;320;500;320;500;280</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>1260</y><w>120</w><h>108</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;100;70;150;180;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1104</x><y>648</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>732</x><y>540</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>624</x><y>474</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model x.x
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>852</x><y>648</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>978</x><y>648</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>846</x><y>4416</y><w>72</w><h>60</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>100;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>786</x><y>558</y><w>120</w><h>102</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>160;150;160;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>732</x><y>648</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>588</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>786</x><y>660</y><w>78</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;110;20</additional_attributes></element><element><id>Relation</id><coordinates><x>894</x><y>624</y><w>48</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>30;60;60;60;60;10;10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>852</x><y>1728</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>1710</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>798</x><y>1566</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>1710</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>1710</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>798</x><y>1710</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>1728</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>1728</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>702</x><y>1638</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>1578</y><w>84</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>1686</y><w>84</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;90;120;90</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>1512</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 3.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>2046</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>840</x><y>1950</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2046</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>2046</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>2064</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>2064</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>894</x><y>1974</y><w>90</w><h>84</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>100;120;100;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>1950</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>1968</y><w>108</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>714</x><y>1998</y><w>222</w><h>96</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;130;350;130</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>1848</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 4.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>2382</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2274</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2382</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>2382</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>2400</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>2400</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>2322</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>2274</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2292</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>714</x><y>2322</y><w>36</w><h>78</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>2184</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 5.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>2388</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2406</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>2718</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2610</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2718</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>2718</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>2736</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>2736</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>2658</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>2610</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2628</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>714</x><y>2658</y><w>36</w><h>78</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>2724</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2742</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>2514</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 2.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2652</y><w>192</w><h>96</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;130;70;130;220;10;300;10</additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2652</y><w>192</w><h>102</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>300;140;220;140;70;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1176</x><y>3054</y><w>60</w><h>54</h></coordinates><panel_attributes>Material
+--
+name 
+type
+description
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>2946</y><w>60</w><h>54</h></coordinates><panel_attributes>User
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>924</x><y>3054</y><w>60</w><h>54</h></coordinates><panel_attributes>Course
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>3054</y><w>60</w><h>54</h></coordinates><panel_attributes>Lesson
+--
+name
+tags
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>978</x><y>3072</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1104</x><y>3072</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>948</x><y>2994</y><w>36</w><h>72</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>2946</y><w>60</w><h>54</h></coordinates><panel_attributes>User Group
+--
+name
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>2964</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>3060</y><w>60</w><h>54</h></coordinates><panel_attributes>Course Group
+--
+name
+tags
+description</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>744</x><y>3078</y><w>192</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=0..*
+has &gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>2856</y><w>654</w><h>318</h></coordinates><panel_attributes>Domain Model 6.0
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>906</x><y>660</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1032</x><y>660</y><w>84</w><h>30</h></coordinates><panel_attributes>lt=-
+m1=0..*
+m2=1
+has &gt;</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>882</x><y>0</y><w>114</w><h>18</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element></diagram>
